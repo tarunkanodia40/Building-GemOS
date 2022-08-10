@@ -1,0 +1,17 @@
+Setting up init process ...
+Page table setup done, launching init ...
+Created thread: 0
+Created thread: 1
+[pid 2]Arg is 1
+[pid 3]Arg is 2
+[pid 3]Arg is 2
+Created thread: 2
+[pid 4]Arg is 3
+[pid 4]Arg is 3
+[pid 4]Arg is 3
+[pid 5]Arg is 4
+[pid 5]Arg is 4
+Created thread: 3
+gthread_create failed
+Cleaned up init process
+GemOS shell again!

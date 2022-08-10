@@ -1,0 +1,15 @@
+In Parent main(). Set Breakpoints.
+In Child main calling fn_1()
+In Parent main(). Child in fn_1() beginning.
+actually inside fn_1 1 st/nd time
+In Parent main(). Child in first fn_1() beginning.
+actually inside fn_1 2 st/nd time
+In Parent main(). Child in second fn_1() beginning.
+actually inside fn_1 3 st/nd time
+In Parent main(). Child in third fn_1() beginning.
+fn_1 address : 0x100000DC0 
+ BackTrace 0 / 4 : 0x100000DC0
+BackTrace 1 / 4 : 0x100000DFA
+BackTrace 2 / 4 : 0x100000DFA
+BackTrace 3 / 4 : 0x100000EA1
+In Parent main(). Child exited.

@@ -1,0 +1,20 @@
+Normal Testcase
+ fn_1 fn_2 both end_bp_enabled
+main() calls fn_1, exits, then calls fn_2
+ ###### 
+end_handler address: 0x100000DA8 
+Main address: 0x100000DF8 
+fn_1 address: 0x100000DDC 
+fn_2 address: 0x100000DC0 
+ ###### 
+Set Breakpoint on fn_2 returned 0x0
+In Parent main(). Set Breakpoints.
+In Child main calling fn_1()
+In fn1
+In Child main. fn_1 finished. Calling fn_2()
+In fn2
+In Child main(). fn_2 finished
+After Child main()
+Breakpoints:
+1 1 0x100000DF8
+In Parent main(). Child exited.

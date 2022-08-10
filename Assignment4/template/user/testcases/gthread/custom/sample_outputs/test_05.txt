@@ -1,0 +1,23 @@
+Setting up init process ...
+Page table setup done, launching init ...
+Created thread: 0
+Created thread: 1
+abcdefghijklmnopqrstuvwxyz
+Segfault for [3] @0x100000A37 for address 0x180209000. Exiting
+Thread 0 returned
+Thread 1 returned
+Created thread: 0
+abcdefghijklmnopqrstuvwxyz
+Segfault for [3] @0x1000014D4 for address 0x180209000. Exiting
+Created thread: 1
+abcdefghijklmnopqrstuvwxyz
+Thread 0 returned
+Thread 1 returned
+Created thread: 0
+abcdefghijklmnopqrstuvwxyz
+Created thread: 1
+abcdefghijklmnopqrstuvwxyz
+Thread 0 returned
+Thread 1 returned
+Cleaned up init process
+GemOS shell again!

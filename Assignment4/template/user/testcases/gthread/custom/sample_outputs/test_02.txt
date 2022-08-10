@@ -1,0 +1,25 @@
+Setting up init process ...
+Page table setup done, launching init ...
+Created thread: 0
+Created thread: 1
+[pid 2]Arg is 1
+[pid 3]Arg is 2
+Created thread: 2
+Created thread: 3
+[pid 4]Arg is 3
+Thread 0 returned is 101
+Thread 1 returned is 202
+Thread 2 returned is 303
+[pid 2]Arg is 4
+Thread 3 returned is 404
+Created thread: 0
+Created thread: 1
+[pid 2]Arg is 5
+[pid 3]Arg is 6
+Created thread: 2
+Thread 0 returned is 505
+Thread 1 returned is 606
+[pid 4]Arg is 7
+Thread 2 returned is 707
+Cleaned up init process
+GemOS shell again!

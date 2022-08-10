@@ -1,0 +1,6 @@
+Setting up init process ...
+Page table setup done, launching init ...
+Created thread: 0
+Thread 0 returned
+Cleaned up init process
+GemOS shell again!

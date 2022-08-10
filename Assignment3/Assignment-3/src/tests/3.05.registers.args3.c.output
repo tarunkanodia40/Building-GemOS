@@ -1,0 +1,30 @@
+end_handler address: 0x100000DA8 
+Main address: 0x100000E5A 
+fn_1 address: 0x100000DF4 
+In Parent main(). Set Breakpoints.
+In Child main calling fn_1()
+In Parent main(). Child in fn_1() beginning.
+Registers:
+ RIP: 0x100000DF4
+ RSP: 0x7FFFFFEC0
+ RBP: 0x7FFFFFFA8
+ RAX: 0x1D
+ RDI: 0x2
+ RSI: 0x3
+ RCX: 0x7
+ R8: 0xB
+In fn1 == 2 5 12 7 11
+In fn_2
+In Parent main(). Child in fn_1() beginning.
+Registers:
+ RIP: 0x100000DC0
+ RSP: 0x7FFFFFE90
+ RBP: 0x7FFFFFEB8
+ RAX: 0x0
+ RDI: 0x19
+ RSI: 0x1
+ RCX: 0x8
+ R8: 0x7
+In fn_3
+In Child main(). fn_1 finished
+In Parent main(). Child exited.

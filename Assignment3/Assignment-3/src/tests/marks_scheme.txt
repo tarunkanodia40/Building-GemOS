@@ -1,0 +1,8 @@
+Test case section 1 - 10 marks
+Test case section 2 - 40 marks
+Test case section 3 - 10 marks
+Test case section 4 - 20 marks
+Total max marks - 80 marks.
+
+Among each test case section the marks are equally divided. Total max marks is 80 but will be scaled to 100.
+

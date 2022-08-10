@@ -1,0 +1,36 @@
+Recursive Testcase
+ fn_1 end_bp_enabled
+main() calls fn_1, fn_1 calls itself 3 times
+ ###### 
+end_handler address: 0x100000DA8 
+Main address: 0x100000DFC 
+fn_1 address: 0x100000DC0 
+Set Breakpoint on fn_1 returned 0x0
+In Parent main(). Set Breakpoints.
+In Child main calling fn_1()
+In Parent main(). Child in fn_1() beginning. 1st
+Breakpoints:
+1 1 0x100000DC0
+In fn1. Recursion Depth (inverted): 3
+In Parent main(). Child in fn_1() beginning. 2nd
+Remove Breakpoint on fn_1 returned -1
+Breakpoints:
+1 1 0x100000DC0
+In fn1. Recursion Depth (inverted): 2
+In Parent main(). Child in fn_1() beginning. 3rd
+Breakpoints:
+1 1 0x100000DC0
+In fn1. Recursion Depth (inverted): 1
+In Parent main(). Child in fn_1() end. 3rd
+Breakpoints:
+1 1 0x100000DC0
+In End Handler
+In Parent main(). Child in fn_1() end. 2nd
+Breakpoints:
+1 1 0x100000DC0
+In End Handler
+In Parent main(). Child in fn_1() end. 1st
+Breakpoints:
+1 1 0x100000DC0
+In End Handler
+In Parent main(). Child exited.
